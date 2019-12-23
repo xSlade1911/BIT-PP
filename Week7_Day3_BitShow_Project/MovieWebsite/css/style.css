@@ -1,0 +1,26 @@
+.heading {
+    background-color: black;
+    height: 80px;
+   
+}
+.space_between {
+    display: flex;
+    justify-content: space-between;
+}
+.heading h3{
+    color: white;
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+}
+.search {
+    height: 30px;
+    margin-top: 25px;
+}
+.pop_shows {
+    text-align: center;
+}
+.content {
+    background-color: lightslategray;
+    height:900px; /* promeniti u auto */
+}

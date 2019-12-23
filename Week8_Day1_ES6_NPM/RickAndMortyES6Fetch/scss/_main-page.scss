@@ -1,0 +1,22 @@
+.main{
+    h1{
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .character{
+        margin-bottom: 35px;
+        img{
+            width: 100%;
+        }
+    }
+    a{
+        color:#66A8FF;
+        &:hover{
+            text-decoration: none;
+            color: gray;
+        }
+
+    }
+  
+}

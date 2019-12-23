@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie Festival</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h4 class="titleHeading">Title</h4>
+        <input id="title" class="inputStyle" type="text" name="title" value=""><br>
+        <h4 class="titleHeading">Length (min)</h4>
+        <input id="length" class="inputStyle" type="number" name="length" value=""><br>
+
+        <select id="select">
+            <option value="select">Select Genre</option>
+            <option value="drama">Drama</option>
+            <option value="action">Action</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="western">Western</option>
+            <option value="adventure">Adventure</option>
+            <option value="comedy">Comedy</option>
+            <option value="horror">Horror</option>
+        </select><br>
+        <div class="error"></div>
+        <input id="button" type="button" value="Create Movie">
+        <ul class="movieList">
+
+        </ul>
+        <p id="totalLength">Total movie length: </p>
+
+    </div>
+
+    <script src="./js/js.js"></script>
+</body>
+
+</html>

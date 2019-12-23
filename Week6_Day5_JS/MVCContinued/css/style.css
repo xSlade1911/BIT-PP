@@ -1,0 +1,83 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.mainContainer {
+  margin: 0% auto;
+  width: 70%;
+  border: 1px solid black;
+  padding-bottom: 25px;
+}
+
+.container {
+  margin: 0% auto;
+  width: 95%;
+  border: 1px solid black;
+  padding-bottom: 25px;
+}
+
+.pasus {
+  margin: 1% 0% 2% 1%;
+}
+
+.titleHeading {
+  margin: 1% 0% 1% 2.5%;
+  font-weight: normal;
+}
+
+.mainTitle {
+  text-align: center;
+}
+
+.inputStyle {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+  padding-left: 15px;
+}
+
+#select1 {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+#select2 {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+
+#select3 {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+
+#button {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  background-color: rgb(3, 209, 3);
+  color: white;
+}
+
+.movieList {
+  margin: 1% 2.5% 1% 2.5%;
+  list-style: none;
+  background-color: lightgray;
+}
+
+#totalLength {
+  margin: 1% 0 1% 2.5%;
+}
+
+.error {
+  margin: 1% 0 1% 2.5%;
+}
+
+.inputPadding {
+  padding-left: 5px;
+}

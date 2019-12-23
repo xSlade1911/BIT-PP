@@ -1,0 +1,7 @@
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #3a4ca9;
+  text-align: left;
+}

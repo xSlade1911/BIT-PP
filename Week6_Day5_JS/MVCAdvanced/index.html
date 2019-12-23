@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Movie Festival Form</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <h1>Movie</h1>
+  <section id="createMovie">
+
+    <label for="movieTitle">Title:</label>
+    <input type="text" id="movieTitle">
+
+    <label for="movieLength">Length (min):</label>
+    <input type="number" id="movieLength">
+
+    <label for="movieGenre">Genre:</label>
+    <select id="movieGenre"></select>
+
+    
+    <button id="createMovieBtn">Create Movie</button>
+
+    <h4>Movies:</h4>
+    <ul id="movieList"></ul>
+  </section>
+  <h1>Program</h1>
+  <section id="createProgram">
+
+    <label for="programName">Name:</label>
+    <input type="text" id="programName">
+
+    <label for="programDate">Date:</label>
+    <input id="programDate" type="date">
+
+    <button id="createProgramBtn">Create Program</button>
+
+    <select id="programOptions"></select>
+    <select id="movieOptions"></select>
+    <button id="addMovieToProgram">Add selected movie to selected program</button>
+
+    <h4>Programs:</h4>
+    <ul id="programList"></ul>
+
+  </section>
+  <script src="./js/MVC.js"></script>
+ 
+</body>
+
+</html>

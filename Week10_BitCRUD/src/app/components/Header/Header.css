@@ -1,0 +1,10 @@
+.nav-wrapper {
+  background-color: #3a4ca9;
+}
+
+nav>div>span {
+
+padding: 0 0 0 15px;
+font-size : 30px
+
+}

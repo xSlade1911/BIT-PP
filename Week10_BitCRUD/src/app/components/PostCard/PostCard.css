@@ -1,0 +1,15 @@
+.postcard {
+  border-right: 1px solid white;
+  padding: 0 15px;
+}
+.postcard_coments {
+  padding-left: 15px;
+}
+.card {
+  background-color: #3a4ca9;
+  color: white;
+}
+/*.postcard-action {
+  float: right;
+}
+*/

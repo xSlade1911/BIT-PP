@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Movie Festival</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+
+  <body>
+    <h1 class="mainTitle">Movie festival</h1>
+
+    <div class="mainContainer">
+      <p class="pasus">Please fill in the form</p>
+      <p class="pasus">Movie</p>
+      <div class="container">
+        <h4 class="titleHeading">Title</h4>
+        <input
+          id="title"
+          class="inputStyle"
+          type="text"
+          name="title"
+          placeholder="Title"
+          value=""
+        /><br />
+        <h4 class="titleHeading">Length (min)</h4>
+        <input
+          id="length"
+          class="inputStyle"
+          type="number"
+          name="length"
+          value=""
+          placeholder="Length in min"
+        /><br />
+
+        <select id="select1">
+          <option value="select">Select Genre</option>
+          <option value="drama">Drama</option>
+          <option value="action">Action</option>
+          <option value="fantasy">Fantasy</option>
+          <option value="western">Western</option>
+          <option value="adventure">Adventure</option>
+          <option value="comedy">Comedy</option>
+          <option value="horror">Horror</option> </select
+        ><br />
+        <div class="error"></div>
+        <input id="button" type="button" value="Create Movie" />
+        <ul class="movieList"></ul>
+        <p id="totalLength">Total movie length: -</p>
+      </div>
+
+      <p class="pasus">Program</p>
+      <div class="container">
+        <!--Program-->
+        <h4 class="titleHeading">Date</h4>
+        <input
+          id="date"
+          class="inputStyle"
+          type="date"
+          name="title"
+          value=""
+        /><br />
+
+        <div class="error"></div>
+        <input id="button" type="button" value="Create Program" />
+        <ul class="programList"></ul>
+
+        <!--Program-->
+        <h4 class="titleHeading">Program</h4>
+        <select id="select2">
+          <option value="select">Select Program</option> </select
+        ><br />
+        <!--Movie option-->
+        <h4 class="titleHeading">Movie</h4>
+        <select id="select3">
+          <option value="select">Select Movie</option> </select
+        ><br />
+        <input id="button" type="button" value="Add movie to program" />
+      </div>
+    </div>
+
+    <script src="./js/js.js"></script>
+  </body>
+</html>

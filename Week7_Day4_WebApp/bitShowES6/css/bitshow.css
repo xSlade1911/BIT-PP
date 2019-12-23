@@ -1,0 +1,75 @@
+.nav {
+  width: 1050px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.nav .logo {
+  color: white;
+  font-size: 20px;
+}
+
+.nav .search {
+  height: 25px;
+  width: 200px;
+  border-radius: 4px;
+  padding-left: 5px;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container img:hover {
+  cursor: pointer;
+}
+
+.container h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.container div {
+  width: 30%;
+  margin: 15px;
+  border: 1px solid lightgrey;
+}
+
+.container p {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+  color: lightblue;
+}
+
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: black;
+}
+/*# sourceMappingURL=bitshow.css.map */
